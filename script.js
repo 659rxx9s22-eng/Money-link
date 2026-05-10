@@ -45,7 +45,7 @@ function showDashboard(username, data) {
     document.getElementById('user-display').innerText = username;
     
     // ربط البيانات ليتم تحديثها فورياً (Real-time)
-    database.ref('users/' + username).on('value', (snapshot) => {
+    const userRef = ref(db, username);.on('value', (snapshot) => {
         const updatedData = snapshot.val();
         if(updatedData) {
             document.getElementById('clicks').innerText = updatedData.clicks || 0;
