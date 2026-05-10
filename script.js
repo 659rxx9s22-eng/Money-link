@@ -1,5 +1,5 @@
 // --- ضع إعدادات Firebase الخاصة بك هنا ---
-const const firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyCnkJf-6sAeRJpm34yXLmkllWsXm-GJvUc",
   authDomain: "my-dash-c78e3.firebaseapp.com",
   databaseURL: "https://my-dash-c78e3-default-rtdb.firebaseio.com",
@@ -49,7 +49,7 @@ function showDashboard(username, data) {
         const updatedData = snapshot.val();
         if(updatedData) {
             document.getElementById('clicks').innerText = updatedData.clicks || 0;
-            document.getElementById('earnings').innerText = "$" + (updatedData.earnings || 0);
+            document.getElementById('earnings').innerText = "$" + (updatedData.balance || 0);
         }
     });
 }
