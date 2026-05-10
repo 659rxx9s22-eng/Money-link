@@ -1,4 +1,3 @@
--- ضع إعدادات Firebase الخاصة بك هنا ---
 const firebaseConfig = {
   apiKey: "AIzaSyCnkJf-6sAeRJpm34yXLmkllWsXm-GJvUc",
   authDomain: "my-dash-c78e3.firebaseapp.com",
@@ -56,3 +55,4 @@ function showDashboard(username, data) {
 function logout() {
     location.reload();
 }
+
