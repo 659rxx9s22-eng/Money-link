@@ -1,10 +1,9 @@
-// --- ضع إعدادات Firebase الخاصة بك هنا ---
+-- ضع إعدادات Firebase الخاصة بك هنا ---
 const firebaseConfig = {
   apiKey: "AIzaSyCnkJf-6sAeRJpm34yXLmkllWsXm-GJvUc",
   authDomain: "my-dash-c78e3.firebaseapp.com",
   databaseURL: "https://my-dash-c78e3-default-rtdb.firebaseio.com",
-  projectId: "my-dash-c78e3",
-  storageBucket: "my-dash-c78e3.firebasestorage.app",
+  projectId: "my-dash-c78e3",  storageBucket: "my-dash-c78e3.firebasestorage.app",
   messagingSenderId: "137154835768",
   appId: "1:137154835768:web:7f396782de1300f9bdfdcd",
   measurementId: "G-H5S7X0VV1Y"
